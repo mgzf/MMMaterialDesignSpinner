@@ -36,7 +36,6 @@
 
 - (IBAction)durationSliderValueUpdated:(id)sender {
     [self.spinnerView stopAnimating];
-    self.spinnerView.duration = self.durationSlider.value;
     [self.spinnerView startAnimating];
 }
 
